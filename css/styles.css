@@ -8,12 +8,12 @@ body {
   padding-top: 80px;
 }
 
-.player-selection {
+#player-selection {
   text-align: center;
   background-color: #B8CEE1;
   border: solid #5C7C97;
-  margin: 185px;
-  padding: 95px;
+  margin: 65px;
+  padding: 45px;
 }
 
 #play-btn {
@@ -22,4 +22,6 @@ body {
 
 #display-players {
   display: none;
+  margin: auto;
+  text-align: center;
 }
