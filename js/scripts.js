@@ -1,12 +1,19 @@
 // Business Logic
 
+// Constructor and prototype for the object Die
+function Die() {};
 
-function rollDice() {
+Die.prototype.roll() {
   //smallest integer greater than or equal to the given random number
   // for nothing higher than 6 or lower than 1
   return Math.ceil(Math.random() * 6);
+};
+
+Die.prototype.hold() {
 
 };
+
+
 
 
 
