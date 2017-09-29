@@ -13,7 +13,14 @@ Die.prototype.hold() {
 
 };
 
+// Constructor and prototype for the object player
+function Player() {
+  this.name = name;
+  this.score = [];
+  this.totalScore = 0;
+  this.active = true;
 
+}
 
 
 
