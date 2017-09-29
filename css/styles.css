@@ -19,3 +19,7 @@ body {
 #play-btn {
   background-color: #5C7C97;
 }
+
+#display-players {
+  display: none;
+}
