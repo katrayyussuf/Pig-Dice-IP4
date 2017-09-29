@@ -1,0 +1,21 @@
+body {
+  background-color: #5C7C97;
+}
+
+.header {
+  text-align: center;
+  background: #5C7C97;
+  padding: 100px;
+  width: auto;
+}
+
+.player-selection {
+  text-align: center;
+  background-color: #B8CEE1;
+  width: auto;
+  padding: 100px;
+}
+
+#play-btn {
+  background-color: #5C7C97;
+}
