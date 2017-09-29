@@ -3,13 +3,13 @@
 // Constructor and prototype for the object Die
 function Die() {};
 
-Die.prototype.roll() {
+Die.prototype.roll = function() {
   //smallest integer greater than or equal to the given random number
   // for nothing higher than 6 or lower than 1
   return Math.ceil(Math.random() * 6);
 };
 
-Die.prototype.hold() {
+Die.prototype.hold = function() {
 
 };
 
@@ -19,8 +19,12 @@ function Player() {
   this.score = [];
   this.totalScore = 0;
   this.active = true;
-
 }
+
+Player.prototype.addScore = function(number) {
+  this.score.push(number);
+  this.totalScore += number
+};
 
 
 
