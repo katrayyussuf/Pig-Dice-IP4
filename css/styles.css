@@ -1,19 +1,19 @@
 body {
-  background-color: #5C7C97;
+  background-color: #B8CEE1;
 }
 
 .header {
   text-align: center;
-  background: #5C7C97;
-  padding: 100px;
-  width: auto;
+  background: #B8CEE1;
+  padding-top: 80px;
 }
 
 .player-selection {
   text-align: center;
   background-color: #B8CEE1;
-  width: auto;
-  padding: 75px;
+  border: solid #5C7C97;
+  margin: 185px;
+  padding: 95px;
 }
 
 #play-btn {
