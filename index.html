@@ -12,26 +12,23 @@
 <body>
   <div class="header">
     <h1>Let's Play</h1>
-    <h1><strong>PIG DICE</strong></h1>
+    <h1><strong>PIG DICE!</strong></h1>
   </div>
-  <div class="player-selection">
-    <form class="player1" action="index.html" method="post">
-      <div class="row">
-        <div class="col-md-6">
-          <label for="player1">Player 1</label>
-          <input id="player1-name" type="text" value="Enter your name here">
-          <label for="player2">Player 2</label>
-          <input id="player2-name" type="text" value="Enter your name here">
-          <span><button type="button" name="button">Let's Play</button></span>
-        </div>
-      </div>
+  <div class="container player-selection">
+    <form class="form-group" action="index.html" method="post">
+      <label for="player1">Player 1</label>
+      <input id="player1-name" type="text" value="Enter your name here">
+      <label for="player2">Player 2</label>
+      <input id="player2-name" type="text" value="Enter your name here">
+      <span><button id="play-btn" type="button" name="button">Let's Play!</button></span>
     </form>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h1><span id="player1-Name"></span> : <span id="player1-Points"></span></h1>
 
 
-    <div class="row">
-      <div class="col-md-6">
-
-      </div>
     </div>
   </div>
   </form>
